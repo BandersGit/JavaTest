@@ -10,6 +10,7 @@ public class Test {
         
         System.out.println("Enter your age:");
         String age = input.next();
+        input.close();
         System.out.println("Your age is " + age);
         
         System.out.println("xxxx");
