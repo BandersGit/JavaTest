@@ -1,13 +1,20 @@
+import java.util.Scanner;
+
 public class Test {
+    
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Scanner input = new Scanner(System.in);
 
-        int one = 1;
-        int two = 2;
-        
-        System.out.println(one + two);
+    
         System.out.println("Hello, World!");
         
-
+        System.out.println("Enter your age:");
+        String age = input.next();
+        System.out.println("Your age is " + age);
+        
+        System.out.println("xxxx");
+        System.out.println("x  x");
+        System.out.println("x  x");
+        System.out.println("xxxx");
     }
 }
