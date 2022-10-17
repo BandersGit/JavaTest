@@ -6,24 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Test",
+            "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "Test",
-            "projectName": "Test_f00ee849",
+            "mainClass": "${file}",
             "console": "externalTerminal"
         },
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Test_f00ee849"
+            "mainClass": "Test",
+            "projectName": "JavaTest_c08f9fcd"
         }
     ]
 }
